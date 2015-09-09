@@ -1,0 +1,29 @@
+*,*:before,*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+
+html,
+body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	color: #aaa;
+	background-color: #333;
+}
+
+.wrapper {
+	width: 990px;
+	margin: 70px auto;
+	position: relative;
+}
+
+#playground {
+	height:500px;
+	width: 100%;
+	background:yellow;
+}
